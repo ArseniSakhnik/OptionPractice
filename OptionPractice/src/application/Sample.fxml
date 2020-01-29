@@ -88,7 +88,7 @@
                   </AnchorPane>
             </content>
           </Tab>
-            <Tab text="locality_view">
+            <Tab fx:id="tabLocality_view" text="locality_view">
               <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
@@ -157,7 +157,7 @@
                   </AnchorPane>
               </content>
             </Tab>
-            <Tab text="tour_view">
+            <Tab fx:id="tabTour_view" text="tour_view">
               <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
@@ -246,7 +246,7 @@
                   </AnchorPane>
               </content>
             </Tab>
-            <Tab text="client_view">
+            <Tab fx:id="tabClient_view" text="client_view">
               <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
@@ -310,7 +310,7 @@
                      </children></AnchorPane>
               </content>
             </Tab>
-          <Tab text="user_view">
+          <Tab fx:id="tabUser_view" text="user_view">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>

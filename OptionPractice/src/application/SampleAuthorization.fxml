@@ -32,6 +32,6 @@
          <font>
             <Font size="32.0" />
          </font></Label>
-      <Button layoutX="198.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleAuthorization" text="Authorization" />
+      <Button fx:id="bAuthorization" layoutX="198.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleAuthorization" text="Authorization1" />
    </children>
 </AnchorPane>

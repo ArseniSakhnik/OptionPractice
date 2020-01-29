@@ -41,5 +41,6 @@ public class TestFXMLAuthorization extends ApplicationTest
 		write("ivan");
 		verifyThat("#tfPasswordField", hasText("ivan"));
 	}
+	
 
 }

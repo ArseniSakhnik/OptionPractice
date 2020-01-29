@@ -14,6 +14,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.Tab;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
@@ -21,6 +22,11 @@ import javafx.scene.control.cell.PropertyValueFactory;
 
 //project
 public class SampleController {
+	
+	@FXML private Tab tabLocality_view;
+	@FXML private Tab tabTour_view;
+	@FXML private Tab tabClient_view;
+	@FXML private Tab tabUser_view;
 	
 	/*client_view*/
 	@FXML private TableView<Client> tvClient;
@@ -91,7 +97,7 @@ public class SampleController {
 			tcPosition.setCellValueFactory(new PropertyValueFactory<User, String>("position"));
 			tcName.setCellValueFactory(new PropertyValueFactory<User, String>("name"));
 			tcLogin.setCellValueFactory(new PropertyValueFactory<User, String>("login"));
-			if (db.userAuth.getPosition().equals("admin"))
+//			if (db.userAuth.getPosition().equals("admin"))
 				tcPassword.setCellValueFactory(new PropertyValueFactory<User, String>("password"));
 			
 			tvUser.setItems(FXCollections.observableArrayList(db.getAllUser()));

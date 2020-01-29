@@ -8,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
@@ -16,6 +17,7 @@ public class SampleAuthorizationController {
 
 	
 	private Database db = new Database();
+	@FXML private Button bAuthorization;
 	
 	@FXML private TextField tfLoginField;
 	@FXML private PasswordField tfPasswordField;
